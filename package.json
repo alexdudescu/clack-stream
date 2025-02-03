@@ -1,0 +1,15 @@
+{
+  "name": "clack-streams",
+  "version": "0.0.1",
+  "description": "Rxjs wrapper for @clack/core & @clack/prompts with few extra features",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "clack",
+    "prompts",
+    "rxjs"
+  ],
+  "author": "Alex Dudescu",
+  "license": "MIT"
+}
