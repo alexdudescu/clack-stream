@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "ES2017",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES2021",
+            "es2016"
+        ],
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationMap": true,
+        "incremental": true,
+        "strict": true,
+        "outDir": "./bin",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "allowJs": false,
+        "paths": {
+          "~/*": [
+            "src/*"
+          ]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
+

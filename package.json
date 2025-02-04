@@ -2,8 +2,10 @@
   "name": "clack-streams",
   "version": "0.0.1",
   "description": "Rxjs wrapper for @clack/core & @clack/prompts with few extra features",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "keywords": [
     "clack",
