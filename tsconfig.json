@@ -10,7 +10,8 @@
         ],
         "module": "CommonJS",
         "esModuleInterop": true,
-        "moduleResolution": "node",
+        "moduleResolution": "Bundler",
+        "moduleDetection": "force",
         "declaration": true,
         "declarationMap": true,
         "incremental": true,
@@ -20,13 +21,11 @@
         "resolveJsonModule": true,
         "allowJs": false,
         "paths": {
-          "~/*": [
-            "src/*"
-          ]
+            "@alexdudescu/clack-streams" : ["./packages/clack-streams/src"]
         }
     },
     "include": [
-        "./src/**/*"
+        "packages"
     ],
     "exclude": [
         "node_modules",
