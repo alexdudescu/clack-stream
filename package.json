@@ -16,6 +16,7 @@
     "typescript": "^5.7.3"
   },
   "workspaces": [
-    "packages/clack-streams"
+    "packages/clack-streams",
+    "packages/playground"
   ]
 }
