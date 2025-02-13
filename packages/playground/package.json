@@ -5,9 +5,10 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "dev": "tsup"
+    "dev": "tsup --watch"
   },
-  "devDependencies": {
-    "@alexdudescu/clack-streams" : "workspace:*"
+  "dependencies": {
+    "@alexdudescu/clack-streams": "file:../clack-streams",
+    "rxjs": "^7.8.1"
   }
 }

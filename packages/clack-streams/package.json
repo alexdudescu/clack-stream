@@ -4,7 +4,7 @@
   "description": "Rxjs wrapper for @clack/core & @clack/prompts",
   "type": "module",
   "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup"
@@ -16,5 +16,9 @@
     "streams"
   ],
   "author": "Alex Dudescu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "rxjs": "^7.8.1"
+  }
 }

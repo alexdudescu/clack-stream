@@ -7,7 +7,7 @@ export default defineConfig({
   entry: ["./src/index.ts"],
   format: ["cjs", "esm"],
   minify: !isDev,
-  target: "node20",
+  target: "esnext",
   outDir: "dist",
   sourcemap: true,
 });
