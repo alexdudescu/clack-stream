@@ -5,6 +5,12 @@
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdudescu/clack-utils",
+    "directory": "packages/clack-streams"
+  },
+  "homepage": "https://github.com/alexdudescu/clack-utils/blob/main/packages/clack-streams/README.md",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
